@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Документ без названия</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="../style2.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div class="top" id="top">
+  <div class="logo0" id="logo0"><a href="../index2.php"><img src="../image/logo0.png" width="47" height="14" alt="logo0" /></a></div>
+  <div class="phones" id="phones"><img src="../image/phones.png" width="324" height="14" alt="phones" /></div>
+</div top>
+<div id="site">
+<div class="top_banner" id="top_banner"></div top banner>
+<div class="menu" id="menu"> </div menu>
+</div site>
+</body>
+</html>

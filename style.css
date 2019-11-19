@@ -1,0 +1,207 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin:0;
+	padding:0;
+	background-color:#333;
+}
+.site {
+	margin:0 auto 00;
+	width:100%;
+	height:auto;
+	background-color:#f3f2f3;
+	padding-bottom:20px;
+}
+.header {
+	height:60px;
+	width:100%;
+	background-color:#933030;
+}
+.logo {
+	position: absolute;
+	margin-left: 35px;
+	margin-top:10px;
+	width: 104px;
+}
+.phone {
+	font-size:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bolder;
+	color:#FFF;
+	position:absolute;
+	right:200px;
+	top: 15px;
+}
+.timework {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color:#FFF;
+	right:15px;
+	top:7px;
+	position:absolute;
+	text-align:right;
+}
+.banner {
+	height:auto;
+	width:900px;
+}
+.middle {
+	width:800px;
+	margin:0 auto 00;
+		-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Firefox */
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+}
+.content {
+	background-color:#FFF;
+	padding:25px;
+}
+.text {
+	width:auto;
+	height:auto;
+	background-color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+.anounce {
+	display:block;
+	width:200px;
+	padding:5px;
+	background-color:#060;
+	color:#FFF;
+	font-weight:bold;
+	font-size:14px;
+	text-align:center;
+}
+.footer {
+	height:200px;
+	width:auto;
+	background-color:#051726;
+	padding:25px;
+}
+.help {
+	margin:0 auto 00;
+	font-size:11px;
+	font-family:Arial, Helvetica, sans-serif;
+	width:800px;
+	text-align:center;
+	margin-top:15px;
+}
+.bold {
+	font-weight:bold;
+}
+.menu {
+	margin-left: 200px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+#nav{
+	float:left;
+	list-style:none;
+	height:auto;
+}
+#nav li{
+	float:left;
+	position:relative;
+	display:block;
+	text-align:center;
+	font-weight:bold;
+}
+#nav li a{ /* главное меню*/
+	display:table-cell;
+	width:150px;
+	height:30px;
+	color:#FFF;
+	font-weight:bold;
+	text-decoration:none;
+	vertical-align:middle;
+}
+#nav li a:hover{ /*при наведении на главное меню*/
+	background-color:#fff;
+	color:#000;
+		-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Firefox */
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+}
+#nav ul{
+	list-style:none;
+	position:absolute;
+	display: none;
+}
+#nav ul li{
+	float:none;
+}
+#nav ul a{
+	white-space:nowrap; 
+	display:block;
+	text-align:left;
+	padding:10px;
+	background-color:#F2F2F2;
+	color:#000;
+	padding:10px;
+}
+#nav li:hover ul{ /* Выводим выпадающий пункт при наведении курсора */
+	display: block;
+	height:auto;
+}
+#nav li:hover ul li a:hover{ /*при наведении на строку в выпадающем меню*/
+	background:#933030;;
+	color:#FFF;
+		-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Firefox */
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+}
+
+a {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-style:normal;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+	color:#900;
+		-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Firefox */
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+}
+.menu_bottom {
+	width: 220px;
+	float:left;
+}
+.menu_bottom a {
+	color:#FFF;
+}
+.menu_bottom ul li {
+	list-style:none;
+}
+#counters {
+	width:auto;
+	background-color:#051726;
+	padding:5px;
+}
+#counters_rambler {
+	width:auto;
+	float:left;
+}
+#counter_liveinternet {
+	padding-left:5px;
+	width: auto;
+	float:left;
+}
+#counter_mailru {
+	width: auto;
+	float:left;
+}
+#articles {
+	color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	float:right;
+	text-align:right;
+	line-height:1.5;
+}
+#articles a{
+	color:#FFF;
+}
+	

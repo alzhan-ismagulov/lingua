@@ -1,0 +1,175 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+       /* background:url(../image/woman.jpg) no-repeat center center fixed;*/
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+		margin-top:25px;
+}
+body {
+	padding:0px;
+	margin:0px;
+	background-color:#333;
+}
+#online-consult {
+	float:right;
+}
+#top_flash_banner {
+	margin:0 auto 00;
+	width:800px;
+	height:100px;
+}
+#top_banner {
+	margin:0 auto 00;
+	width:800px;
+	height:118px;
+	background-image:url(../image/8march_en.jpg);
+	opacity:0.9;
+}
+/*#top, #header, #menu_field {
+	background-color:#933030;
+}*/
+#top {
+	height:30px;
+	width:800px;;
+	margin:0 auto 00;
+	opacity:0.8;
+}
+#registration {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#fff;
+	margin-left:50px;
+	width:auto;
+	float:left;
+	margin-top:7px;
+}
+#registration a, #language a {
+	color:#FFF;
+	text-decoration:none;
+}
+#language {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#fff;
+	margin-right:50px;
+	width:auto;
+	float:right;
+	margin-top:7px;
+}
+#header {
+	width:800px;
+	height:60px;
+	margin:0 auto 00;
+	opacity:0.8;
+}
+#logo {	
+	margin-left:25px;
+	float:left;
+	margin-top:10px;
+}
+#search {
+	font-family:Arial, Helvetica, sans-serif;
+	float:right;
+	margin: 10px 50px 0 0;
+	font-size:10px;
+	color:#fff;
+}
+#menu_field {
+	width:800px;
+	height:28px;
+	margin:0 auto 00;
+	opacity:0.8;
+}
+#site {
+	margin:0 auto 00;
+	width:800px;
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Firefox */
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+}
+#banner {
+	width:800px;
+}
+#content {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	padding:25px;	
+	background-color:#fff;
+	opacity:0.8;
+}
+#footer {
+	height:170px;
+	width:auto;
+	background-color:#051726;
+	padding:25px;
+	opacity:0.9;
+}
+#menu_footer{
+	float:left;
+	list-style:none;
+	height:auto;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#fff;
+}
+#menu_footer a {
+	color:#fff;
+}
+#counters {
+	background-color:#051726;
+}
+#counters_rambler {
+	width: auto;
+	float:left;
+}
+#counter_liveinternet {
+	width: auto;
+	float:left;
+}
+#counter_mailru {
+	width: auto;
+	float:left;
+}
+#counter_openstat {
+	width:auto;
+	float:left;
+}
+#counter_hotlog {
+	width:auto;
+	float:left;
+}
+#social_network {
+	float:right;
+	margin:5px 25px 00;
+}
+#help {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	text-align:center;
+	height:30px;
+	margin-top:5px;
+}
+#articles {
+	color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	float:right;
+	text-align:right;
+	line-height:1.5;
+}
+#articles a{
+	color:#FFF;
+}
+form {
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	background-color:#FFF;
+	opacity:0.9;
+}
+#middle {
+	background-color:#FFF;
+	opacity:0.9;
+}
